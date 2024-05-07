@@ -6,7 +6,7 @@ class Main {
                  result+= (char) (str.charAt(i)-32);
              }
              else{
-                 result+= (char)(str.charAt(i));
+                 result+= str.charAt(i);
              }
         }
        return result;
